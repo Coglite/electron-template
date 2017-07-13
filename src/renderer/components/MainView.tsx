@@ -28,7 +28,7 @@ export default class MainView extends React.Component<Props, {}> {
 
   render() {
     return (
-      <h1>mumble</h1>
+      <h1>hello world</h1>
     );
   }
 }
