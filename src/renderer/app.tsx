@@ -1,4 +1,5 @@
 ﻿import './app.css';
+import 'bootstrap/dist/css/bootstrap.css';
 
 import * as React from 'react';
 import { render } from 'react-dom';
@@ -7,6 +8,7 @@ import { initializeStore } from './InitializeStore';
 import MainView from './containers/MainView';
 import ApplicationMenu from './containers/ApplicationMenu';
 import TrayMenu from './containers/TrayMenu';
+
 
 const store = initializeStore();
 
