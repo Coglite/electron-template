@@ -13,13 +13,13 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
-    "redux": "^3.7.1",
+    "redux": "^3.7.2",
     "redux-actions": "^2.2.1"
   },
   "devDependencies": {
     "@types/react": "^15.0.34",
     "@types/react-dom": "^15.5.1",
-    "@types/react-redux": "^4.4.45",
+    "@types/react-redux": "^4.4.46",
     "@types/redux-actions": "^1.2.6",
     "awesome-typescript-loader": "^3.2.1",
     "copy-webpack-plugin": "^4.0.1",
@@ -28,10 +28,10 @@
     "electron-rebuild": "^1.5.11",
     "html-webpack-plugin": "^2.29.0",
     "style-loader": "^0.18.2",
-    "tslint": "^5.4.3",
+    "tslint": "^5.5.0",
     "tslint-react": "^3.0.0",
     "typescript": "^2.4.1",
-    "webpack": "^3.0.0",
+    "webpack": "^3.2.0",
     "webpack-electron-packager": "^1.0.0",
     "webpack-merge": "^4.1.0"
   }

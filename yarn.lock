@@ -12,9 +12,9 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-redux@^4.4.45":
-  version "4.4.45"
-  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-4.4.45.tgz#afad851d8592119225aa6bcc402c7f6b9c7e4106"
+"@types/react-redux@^4.4.46":
+  version "4.4.46"
+  resolved "https://registry.yarnpkg.com/@types/react-redux/-/react-redux-4.4.46.tgz#83b78c8783f31fc890d9a4d1e2acf9c4665fa913"
   dependencies:
     "@types/react" "*"
     redux "^3.6.0"
@@ -1152,7 +1152,7 @@ encoding@^0.1.11:
   dependencies:
     iconv-lite "~0.4.13"
 
-enhanced-resolve@^3.0.0, enhanced-resolve@^3.1.0:
+enhanced-resolve@^3.1.0, enhanced-resolve@^3.3.0:
   version "3.3.0"
   resolved "https://registry.yarnpkg.com/enhanced-resolve/-/enhanced-resolve-3.3.0.tgz#950964ecc7f0332a42321b673b38dc8ff15535b3"
   dependencies:
@@ -3254,9 +3254,18 @@ redux-actions@^2.2.1:
     lodash-es "^4.17.4"
     reduce-reducers "^0.1.0"
 
-redux@^3.4.0, redux@^3.6.0, redux@^3.7.1:
+redux@^3.4.0, redux@^3.6.0:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.1.tgz#bfc535c757d3849562ead0af18ac52122cd7268e"
+  dependencies:
+    lodash "^4.2.1"
+    lodash-es "^4.2.1"
+    loose-envify "^1.1.0"
+    symbol-observable "^1.0.3"
+
+redux@^3.7.2:
+  version "3.7.2"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-3.7.2.tgz#06b73123215901d25d065be342eb026bc1c8537b"
   dependencies:
     lodash "^4.2.1"
     lodash-es "^4.2.1"
@@ -3849,9 +3858,9 @@ tslint-react@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-3.0.0.tgz#00c48ab7f22e91533b62bdef2c162b49447af00a"
 
-tslint@^5.4.3:
-  version "5.4.3"
-  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.4.3.tgz#761c8402b80e347b7733a04390a757b253580467"
+tslint@^5.5.0:
+  version "5.5.0"
+  resolved "https://registry.yarnpkg.com/tslint/-/tslint-5.5.0.tgz#10e8dab3e3061fa61e9442e8cee3982acf20a6aa"
   dependencies:
     babel-code-frame "^6.22.0"
     colors "^1.1.2"
@@ -3862,11 +3871,11 @@ tslint@^5.4.3:
     resolve "^1.3.2"
     semver "^5.3.0"
     tslib "^1.7.1"
-    tsutils "^2.3.0"
+    tsutils "^2.5.1"
 
-tsutils@^2.3.0:
-  version "2.5.1"
-  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.5.1.tgz#c2001390c79eec1a5ccfa7ac12d599639683e0cf"
+tsutils@^2.5.1:
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-2.6.1.tgz#98ecf009594f4e4af884057be4cf41a450bc7637"
   dependencies:
     tslib "^1.7.1"
 
@@ -3916,7 +3925,7 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
-uglifyjs-webpack-plugin@^0.4.4:
+uglifyjs-webpack-plugin@^0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/uglifyjs-webpack-plugin/-/uglifyjs-webpack-plugin-0.4.6.tgz#b951f4abb6bd617e66f63eb891498e391763e309"
   dependencies:
@@ -4055,16 +4064,16 @@ webpack-sources@^1.0.1:
     source-list-map "^2.0.0"
     source-map "~0.5.3"
 
-webpack@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.0.0.tgz#ee9bcebf21247f7153cb410168cab45e3a59d4d7"
+webpack@^3.2.0:
+  version "3.2.0"
+  resolved "https://registry.yarnpkg.com/webpack/-/webpack-3.2.0.tgz#8b0cae0e1a9fd76bfbf0eab61a8c2ada848c312f"
   dependencies:
     acorn "^5.0.0"
     acorn-dynamic-import "^2.0.0"
     ajv "^5.1.5"
     ajv-keywords "^2.0.0"
     async "^2.1.2"
-    enhanced-resolve "^3.0.0"
+    enhanced-resolve "^3.3.0"
     escope "^3.6.0"
     interpret "^1.0.0"
     json-loader "^0.5.4"
@@ -4077,7 +4086,7 @@ webpack@^3.0.0:
     source-map "^0.5.3"
     supports-color "^3.1.0"
     tapable "~0.2.5"
-    uglifyjs-webpack-plugin "^0.4.4"
+    uglifyjs-webpack-plugin "^0.4.6"
     watchpack "^1.3.1"
     webpack-sources "^1.0.1"
     yargs "^6.0.0"
