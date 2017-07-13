@@ -1,4 +1,5 @@
 ﻿import * as React from 'react';
+import { Button } from 'reactstrap';
 
 export interface Props {
   handleOnline: () => void;
@@ -28,7 +29,7 @@ export default class MainView extends React.Component<Props, {}> {
 
   render() {
     return (
-      <h1>hello world</h1>
+      <Button onClick={() => alert('pew')}/>
     );
   }
 }
